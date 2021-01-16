@@ -106,7 +106,6 @@ body{
   padding-left:-2px;
 }
 .sidebar .tablet{
-  background:#343a40;
   width:100%;
   height:30px;
   color:#fff;
