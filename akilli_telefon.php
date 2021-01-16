@@ -1,6 +1,6 @@
 <?php 
   
-  $db = new PDO("mysql:host=localhost;dbname=sirket;charset=utf8","root","12345678");
+  $db = new PDO("mysql:host=localhost;dbname=sirket;charset=utf8","root","");
 
   $query = $db->query("SELECT urunler.urun_ad as urun, SUM(satis.adet) AS satis_adedi, satis.satis_tarihi , ulkeler.ulke_adi
 FROM urunler, satis, urun_turleri, magazalar ,ulkeler
