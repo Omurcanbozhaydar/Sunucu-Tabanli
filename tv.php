@@ -242,7 +242,7 @@ padding:20px;
 display:flex;
 justify-content:space-between;
 }}
-.content .header .headerinfo{
+.content .header{
 padding:20px;
 width:110px;
 display:flex;
@@ -261,7 +261,7 @@ box-sizing:border-box;
 .content .main .nav .dash{
 font-size:22px;
 }
-.content .main .nav .navigation{
+.content .main .nav{
 font-size:12px; 
 }
 h1{
@@ -272,6 +272,7 @@ h1{
 h2{
   margin-top: -150px;
   margin-left: 450px;
+  font: inherit;
 }
 .clearFix {
   clear: both;
