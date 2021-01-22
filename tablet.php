@@ -241,7 +241,7 @@ padding:20px;
 display:flex;
 justify-content:space-between;
 }}
-.content .header .headerinfo{
+.content .header{
 padding:20px;
 width:110px;
 display:flex;
@@ -271,6 +271,7 @@ h1{
 h2{
   margin-top: -150px; 
   margin-left: 450px;
+  font: inherit;
 }
 .clearFix {
   clear: both;
