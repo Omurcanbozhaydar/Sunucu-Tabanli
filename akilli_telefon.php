@@ -259,7 +259,7 @@ box-sizing:border-box;
 .content .main .nav .dash{
 font-size:22px;
 }
-.content .main .nav .navigation{
+.content .main .nav{
 font-size:12px; 
 }
 h1{
