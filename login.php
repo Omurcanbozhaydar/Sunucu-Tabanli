@@ -1,6 +1,6 @@
 <?php
 session_start();
-$baglanti=mysqli_connect("localhost","root","12345678","sirket");
+$baglanti=mysqli_connect("localhost","root","","sirket");
 if($baglanti){
 if($_POST){
 if(strip_tags(trim(isset($_POST["Kullanıcı"])))){
